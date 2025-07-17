@@ -1,0 +1,307 @@
+/* sm */
+@media screen and (min-width: 576px){ 
+
+   
+   #header .btn-content{
+    width: 100%;
+    justify-content: center;
+}
+#gallery .container .card-img .container .img{
+    width: 90%;
+}
+#gallery .container .card-img .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 4000px;
+    padding-bottom: 10px;
+}
+#gallery .container .card-img .container .img{
+margin: 4px;
+}
+.footer .subscribe-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+}
+.footer .subscribe-form button{
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+}
+/* md */
+@media screen and (min-width: 768px){
+#header .btn-content{
+    width: 100%;
+    justify-content: center;
+}
+#chefs .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#chefs .cards .card-item{
+    width: 45%;
+  
+}
+#gallery .container .card-img .container .img{
+    width: 50%;
+}
+#gallery .container .card-img .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1500px;
+    padding-bottom: 10px;
+}
+#gallery .container .card-img .container .img{
+margin: 4px;
+}
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 50%; */
+  /* width: 100%; */
+  /* flex-wrap: wrap; */
+}
+.footer .container .footer-section{
+    width: 48%;
+    margin-right: 2px;
+}
+.footer .container .newsletter{
+    order: 10;
+    width: 100%;
+}
+
+} 
+/* lg */
+@media screen and (min-width: 992px){ 
+ #header .navbar.dark-icon .bars{
+        display: none;
+    }
+
+    #header .content .container{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#header .content .container .image{
+    width: 50%;
+}
+#header .content .container .image img{
+    width: 80%;
+}
+    #header .content .container .text{
+        order: -1;
+        text-align: start;
+        width: 40%;
+    
+    
+
+}
+#header .btn-content{
+    width: 95%;
+    justify-content: space-between;
+}
+
+#chefs .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#gallery .container .card-img .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1900px;
+    padding-bottom: 10px;
+}
+#gallery .container .card-img .container .img{
+    width: 50%;
+}
+#contact .contact-info{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#contact .contact-info .info{
+    width: 48%;
+}
+#contact .container .form form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "open sans", sans-serif;
+}
+#contact .container .form input{
+    width: 48%;
+}
+#header .content .btn-primary{
+    border-top-left-radius: 0px;
+}
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* width: 50%; */
+  /* width: 100%; */
+  /* flex-wrap: wrap; */
+}
+.footer .container .footer-section{
+    width: 32%;
+    margin-right: 3px;
+}
+.footer .container .newsletter{
+    order: 0;
+    width: 33.33%;
+}
+}
+/* xlg */
+@media screen and (min-width: 1200px){ 
+     #header .navbar .links{
+        display: block;
+    }
+     #header .navbar .dark-icon .bars{
+        display: none;
+    }
+    #header .content .container{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#header .content .container .image{
+    width: 50%;
+}
+#header .content .container .image img{
+    width: 90%;
+}
+    #header .content .container .text{
+        order: -1;
+        text-align: start;
+        width: 40%;
+}
+#header .btn-content{
+    width: 76%;
+    justify-content: space-between;
+}
+
+/* Chefs */
+#chefs .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+#gallery .container .card-img .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1000px;
+    padding-bottom: 10px;
+}
+#gallery .container .card-img .container .img{
+    width: 32%;
+}
+
+#contact .contact-info{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#contact .contact-info .info{
+    width: 48%;
+}
+#contact .container .form form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "open sans", sans-serif;
+}
+#contact .container .form input{
+    width: 48%;
+}
+#header .content .btn-primary{
+    border-top-left-radius: 0px;
+}
+}
+/* xxl */
+@media screen and (min-width: 1400px){
+ #header .navbar .links{
+        display: block;
+    }
+     #header .navbar .dark-icon .bars{
+        display: none;
+    }
+
+      #header .content .container{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#header .content .container .image{
+    width: 50%;
+}
+#header .content .container .image img{
+    width: 90%;
+}
+    #header .content .container .text{
+        order: -1;
+        text-align: start;
+        width: 40%;
+
+}
+#header .btn-content{
+    width: 70%;
+    justify-content: space-between;
+}
+#gallery .container .card-img .container .img{
+    width: 30%;
+    margin: 2px;
+}
+#gallery .container .card-img .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:1000px;
+    /* padding-bottom: 10px; */
+}
+
+#contact .contact-info{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#contact .contact-info .info{
+    width: 48%;
+}
+#contact .container .form form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "open sans", sans-serif;
+}
+#contact .container .form input{
+    width: 48%;
+   
+}
+
+#header .content .btn-primary{
+    border-top-left-radius: 0px;
+}
+} 
+    
