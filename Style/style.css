@@ -162,6 +162,10 @@ a {
 
 #header .content .container .image {
     width: 80%;
+}
+
+   
+#header .content .container .image img {
     margin-top: 50px;
 }
 
