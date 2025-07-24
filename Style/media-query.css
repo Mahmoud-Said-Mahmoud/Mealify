@@ -10,7 +10,7 @@
     width: 90%;
 }
    
-#header .content .container .image {
+#header .content .container .image img {
     margin-top: 50px;
 }
 #gallery .container .card-img .container{
@@ -41,7 +41,8 @@ margin: 4px;
     width: 100%;
     justify-content: center;
 }
-#header .content .container .image {
+   
+#header .content .container .image img {
     margin-top: 50px;
 }
 #chefs .cards{
