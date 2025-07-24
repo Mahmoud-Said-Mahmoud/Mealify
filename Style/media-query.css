@@ -9,6 +9,10 @@
 #gallery .container .card-img .container .img{
     width: 90%;
 }
+   
+#header .content .container .image {
+    margin-top: 50px;
+}
 #gallery .container .card-img .container{
     display: flex;
     flex-direction: column;
@@ -36,6 +40,9 @@ margin: 4px;
 #header .btn-content{
     width: 100%;
     justify-content: center;
+}
+#header .content .container .image {
+    margin-top: 50px;
 }
 #chefs .cards{
     display: flex;
